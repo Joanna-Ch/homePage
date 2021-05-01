@@ -1,0 +1,29 @@
+.navigation {
+    text-align: left;
+}
+
+.navigation__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navigation__listItem {
+    margin: 20px 0;
+    font-weight: 700;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: rgb(4, 83, 4);
+}
+
+.navigation__link:hover {
+    color: tomato;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.navigation__link:active {
+    color: brown;
+    border-bottom: 1px solid;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pln">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <title>o mnie</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/tableContainer" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="container js-container">
+    <header>
+        <h1 class="container__header">Joanna -początek przygody z frontendem ;)<h1>
+    </header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__listItem"><a class="navigation__link" href="#o-mnie"> O mnie</a></li>
+            <li class="navigation__listItem"><a class="navigation__link" href="#po-pracy">Po pracy</a></li>
+            <li class="navigation__listItem"><a class="navigation__link" href="#kontakt">Kontakt</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="section">
+            <h2 id="o-mnie" class="section__header"> O mnie </h2>
+            <p><img class="section__image" src="https://i.ibb.co/Tq9cbWQ/Joa.jpg" alt="Joanna"></p>
+            <p> Mam na imię <b>Joanna</b>, jestem mamą trójki dzieci: dużego piłkarza- obrona,
+                tanecerki i małego piłkarza - atak. Wszyscy uwielbiają grać w Minecraft :). <br> Programowaniem
+                zainteresowałam się kilka miesięcy
+                temu. Po kilku różnych kursach w końcu trafiłam na <i>
+                    <strong>youcode</strong>
+                </i>. <em>Jestem bardzo zadowolona i mam nadzieję na dobrą zabawę :).</em></p>
+            <p> Od 9 lat jestem urzędnikiem. Mój zakres obowiązków jest bardzo szeroki. Od kilku lat
+                jestem również
+                administratorem różnych systemów m.in. elektroncznego obiegu
+                dopkumentów. Przez cały czas pracy
+                jestem
+                aministratorem strony internetowej. W tym roku zamierzam ją
+                zmienić. </p>
+        </section>
+        <section class="section">
+            <h2 id="po-pracy" class="section__header">Po pracy</h2>
+            <p> Lubię odpoczywać nad wodą, czy to w górach czy nad morzem...</p>
+            <p>Moje plany na najbliższe wakacje..</p>
+
+            <div class="tableContainer">
+                <table class="table">
+                    <caption class="table__caption">Moje miejsca do odwiedzenia</caption>
+                    <tr class="table__row">
+                        <th scope="col" class=" table__cell table__cell--header">Rejon</th>
+                        <th scope="col" class="table__cell table__cell--header">Miejscowość</th>
+                        <th scope="col" class="table__cell table__cell--header">atrakcje</th>
+                    </tr>
+                    <tr class="table__row">
+                        <th scope="row" class="table__cell table__cell--header">nad morzem</th>
+                        <td class="table__cell">Kołobrzeg</td>
+                        <td class="table__cell">plaża, molo, latarnia morska, port, </td>
+                    </tr>
+                    <tr class="table__row">
+                        <th scope="row" class="table__cell table__cell--header">w górach</th>
+                        <td class="table__cell">Tarnowskie Góry</td>
+                        <td class="table__cell">Zabytkowa Kopalnia Srebra, Sztolnia Czarnego Pstrąga
+                            w Tarnowskich Górach </td>
+                    </tr>
+                    <tr class="table__row">
+                        <th scope="row" rowspan="2" class="table__cell table__cell--header">Podlasie</th>
+                        <td class="table__cell">Białowieża</td>
+                        <td class="table__cell">rezerwat pokazowy żubrów, miejsce mocy, wycieczka do Puszczy po
+                            stronie
+                            Białoruskiej, odwiedziny u Dziadka Mroza i Śnieżynki</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">Mielnik nad Bugiem - Drohiczyn</td>
+                        <td class="table__cell">kopalnia kredy, spływ kajakowy, Umocnienia linii Mołotowa, koscioły,
+                            cerkwie, muzeum starych motocykli</td>
+                    </tr>
+                </table>
+            </div>
+            <button class=" button js-buttonImage">Zobacz inne zdjęcie</button>
+            <p>
+                <img class="section__imageChange js-imageChange" src="https://i.ibb.co/qCnSFW1/gory.jpg" alt="góry">
+            </p>
+            <!-- below button changes the background of the page -->
+            <p>
+                <button class="button js-buttonColor"> Zmień kolor tła</button>
+            </p>
+        </section>
+        <section>  <h2 id="kontakt" class="section__header">
+            Kontakt
+        </h2>
+        <p>
+            <button class="button js-buttonAdress"> <span>Zobacz kontakt</span></button>
+        </p>
+        <p class="js-adressShow"></p></section>
+      
+    </main>
+    <footer class="footer">
+        made by @Asia
+    </footer>
+</body>
+
+</html>
